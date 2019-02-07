@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Gudea:400,700');
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: calc(1vmin + 1em);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Gudea', sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 15em;
+  background-color: gainsboro;
+}
+
+main {
+  flex: 1;
+  margin: auto;
+  padding: 1em;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 10em;
+}
+
+input {
+  font-size: inherit;
+  padding: 0.5em;
+  border: 0;
+  flex: 1;
+}
+
+button {
+  font-size: inherit;
+  height: 100%;
+  background-color: #2e689b;
+  color: #fff;
+  padding: 0.5em 0.75em;
+  border: 0;
+}
+
+hr {
+  margin: 1em 0;
+}
+
+pre {
+  background-color: #333;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  color: lightblue;
+  white-space: pre-wrap;
+  font-size: 75%;
+}

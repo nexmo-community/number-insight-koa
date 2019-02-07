@@ -1,0 +1,26 @@
+{
+  "name": "number-insight-koa",
+  "version": "0.0.1",
+  "description": "Exploring the number insight API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/number-insight-koa"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "koa",
+    "nexmo"
+  ],
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "nexmo": "^2.4.1"
+  }
+}
