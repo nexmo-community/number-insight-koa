@@ -4,7 +4,7 @@
 
 This project introduces the [Nexmo Number Insight API](https://developer.nexmo.com/number-insight/overview) and how to retrieve information about a number via a web interface using [Koa.js](https://koajs.com/).
 
-To set up your own version, run the following commands after cloning the repo, or [remix the Glitch version](https://glitch.com/edit/#!/nexmo-number-insight-dashboard):
+To set up your own version, run the following commands after cloning the repo, or [remix the Glitch version](https://glitch.com/edit/#!/number-insight-koa):
 
 ```bash
 $ npm install
